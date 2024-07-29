@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name: Lading Page seeio
+*/
+?>
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -21,21 +26,21 @@
   <!-- <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no"> -->
   <!-- /meta -->
   <!-- favicon -->
-  <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-  <link rel="manifest" href="./favicon/site.webmanifest">
-  <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#000">
+  <link rel="apple-touch-icon" sizes="60x60" href="<?php echo get_template_directory_uri() ?>/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri() ?>/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri() ?>/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="<?php echo get_template_directory_uri() ?>/assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="<?php echo get_template_directory_uri() ?>/assets/favicon/safari-pinned-tab.svg" color="#000">
   <meta name="msapplication-TileColor" content="#000">
   <meta name="theme-color" content="#ffffff">
-  <link rel="preload" href="./assets/js/script.min.js" as="script">
+  <link rel="preload" href="<?php echo get_template_directory_uri() ?>/assets/js/script.min.js" as="script">
   <link rel="preload" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap-grid.min.css" as="style" />
   <!-- /preload -->
   <!-- style -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap-grid.min.css" />
   <!-- style -->
   <!-- styles -->
-  <link rel="stylesheet" href="./assets/css/style.min.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/style.min.css">
   <!-- /styles -->
 </head>
 
@@ -45,7 +50,7 @@
     <div class="container">
       <!-- logo -->
       <div class="header__logo logo">
-        <img src="./assets/img/logo.svg" />
+        <img src="<?php echo get_template_directory_uri() ?>/assets/img/logo.svg" />
       </div>
       <!-- /logo -->
     </div>
@@ -74,8 +79,8 @@
       <!-- img -->
       <div class="main__img">
         <picture>
-          <source srcset="./assets/img/bg/main-img.webp" type="image/webp">
-          <img src="./assets/img/bg/main-img.png" alt>
+          <source srcset="<?php echo get_template_directory_uri() ?>/assets/img/bg/main-img.webp" type="image/webp">
+          <img src="<?php echo get_template_directory_uri() ?>/assets/img/bg/main-img.png" alt>
         </picture>
       </div>
       <!-- /img -->
@@ -105,8 +110,8 @@
           <div class="item-bg__bg governace__items-bg"></div>
           <i class="items__icon governace__items-icon">
             <picture>
-              <source srcset="./assets/img/icons/unlock.webp" type="image/webp">
-              <img src="./assets/img/icons/unlock.png" alt>
+              <source srcset="<?php echo get_template_directory_uri() ?>/assets/img/icons/unlock.webp" type="image/webp">
+              <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/unlock.png" alt>
             </picture>
           </i>
           <div class="items__text governace__items-text">
@@ -123,8 +128,8 @@
           <div class="item-bg__bg governace__items-bg"></div>
           <i class="items__icon governace__items-icon">
             <picture>
-              <source srcset="./assets/img/icons/thumbs-up.webp" type="image/webp">
-              <img src="./assets/img/icons/thumbs-up.png" alt>
+              <source srcset="<?php echo get_template_directory_uri() ?>/assets/img/icons/thumbs-up.webp" type="image/webp">
+              <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/thumbs-up.png" alt>
             </picture>
           </i>
           <div class="items__text governace__items-text">
@@ -140,8 +145,8 @@
         <div class="col-lg-4 col-sm-6 col-12 items__item item-bg item-bg--grid governace__items-item">
           <div class="item-bg__bg governace__items-bg"></div>
           <i class="items__icon governace__items-icon">
-            <source srcset="./assets/img/icons/star.webp" type="image/webp">
-            <img src="./assets/img/icons/star.png" alt>
+            <source srcset="<?php echo get_template_directory_uri() ?>/assets/img/icons/star.webp" type="image/webp">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/star.png" alt>
           </i>
           <div class="items__text governace__items-text">
             <h3 class="items__title h3 text-title governace__items-title">Premium Onboarding </h3>
@@ -197,8 +202,8 @@
           <div class="col-md-6 col-12">
             <div class="items__img img platform__items-img image image--cover">
               <picture>
-                <source srcset="./assets/img/platform/platform-1.webp" type="image/webp">
-                <img src="./assets/img/platform/platform-1.jpg" alt>
+                <source srcset="<?php echo get_template_directory_uri() ?>/assets/img/platform/platform-1.webp" type="image/webp">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/platform/platform-1.jpg" alt>
               </picture>
             </div>
           </div>
@@ -219,8 +224,8 @@
           <div class="col-md-6 col-12">
             <div class="items__img img platform__items-img image image--cover">
               <picture>
-                <source srcset="./assets/img/platform/platform-2.webp" type="image/webp">
-                <img src="./assets/img/platform/platform-2.jpg" alt>
+                <source srcset="<?php echo get_template_directory_uri() ?>/assets/img/platform/platform-2.webp" type="image/webp">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/platform/platform-2.jpg" alt>
               </picture>
             </div>
           </div>
@@ -242,8 +247,8 @@
           <div class="col-md-6 col-12">
             <div class="items__img img platform__items-img image image--cover">
               <picture>
-                <source srcset="./assets/img/platform/platform-3.webp" type="image/webp">
-                <img src="./assets/img/platform/platform-3.jpg" alt>
+                <source srcset="<?php echo get_template_directory_uri() ?>/assets/img/platform/platform-3.webp" type="image/webp">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/platform/platform-3.jpg" alt>
               </picture>
             </div>
           </div>
@@ -284,7 +289,7 @@
         <div class="col-xl-5 col-lg-4 col-12">
           <!-- logo -->
           <div class="footer__logo logo logo--lg">
-            <img src="./assets/img/logo.svg" />
+            <img src="<?php echo get_template_directory_uri() ?>/assets/img/logo.svg" />
           </div>
           <!-- /logo -->
         </div>
@@ -307,7 +312,7 @@
 
 
   <!-- scripts -->
-  <script src="./assets/js/script.min.js"></script>
+  <script src="<?php echo get_template_directory_uri() ?>/assets/js/script.min.js"></script>
   <!-- /scripts -->
 </body>
 
